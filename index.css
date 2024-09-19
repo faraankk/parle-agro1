@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace,monospace;
+
+}.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(18, 21, 47);
+    color: white;
+    height: 4em;
+    width: 100vw;
+    font-size: 17px
+    
+}
+.menu img{
+    margin-left: 2rem;
+    margin-top: .5em;
+    width: 140px;
+    height: 30px;
+    padding: 10px;
+
+}
+.menu-list{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    list-style-type:none;
+    gap: 2em    ;
+    margin-right: 2.1em;
+    
+
+}
+.dropdown{
+    position: fixed;
+    visibility: hidden;
+    padding:0.5em;
+    width: 100px;
+    height: fit-content;
+    background-color: rgb(18, 21, 47);
+    color: white;
+    border-style: hidden;
+    z-index: 10;
+}
+.dropdown:hover{
+    visibility: visible;
+}
+
+.dropdown p{
+    visibility:visible;
+}
+
+
+option{
+    min-width: 100px;
+    height: 2em ;
+}
+
+.image{
+    width:100vw;
+}
+.middle-content-container{
+    margin-top: -5px;
+    display: flex;
+}
+.left-content-container{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 2em 0 ;
+    height:80vw;
+    width:50vw;
+    text-align: center;
+
+}
+
+.left-content-container img{
+    height: 100%;
+    width: 20%;
+  
+}
+
+.right-content-container{
+    position:relative ;
+    box-sizing: border-box ;
+    font-size: 1.4em;
+    padding: 5em;
+    height:70vw;
+    width:50vw;
+
+    }
+
+h1{
+    position: relative;
+    bottom: 450px;
+    font-size: 4em;
+
+    color: white ;
+}
+.right-image{
+    width: -9px;
+    margin-top: 2px;
+    
+}
+.background1{
+    margin-top: 100px;
+}
+.parent{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+     height:200px;
+    justify-content: space-around;
+    align-items: center; 
+    /* padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.child{
+    
+    margin-right:1px;
+    font-size: 13px;
+    
+}
+a:link {
+    color: rgb(6, 6, 6);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .link{
+    font-weight:bold;
+    margin-top: 5px;
+  }
